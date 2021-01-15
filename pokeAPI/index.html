@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POKEAPI TEST</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="pokeApi.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>POKEAPI TEST</h1>
+        </header>
+        <main>
+            <form onsubmit="getData(); return false">
+                <label for="name">Pokemon name</label>
+                <input name="name" id="name" type="text" placeholder="Enter a pokemon name">
+                <input type="submit" value="submit">
+            </form>
+            <div>
+                <h3>Types:</h3>
+                <p id="Output"></p>
+            </div>
+        </main>
+    </body>
+</html>

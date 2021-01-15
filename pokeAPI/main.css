@@ -1,0 +1,19 @@
+html {
+    background-color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Output {
+    border: blueviolet double 2px;
+    border-radius: 10%;
+    height:200px;
+    width:500px;
+    padding:1%;
+}
+
